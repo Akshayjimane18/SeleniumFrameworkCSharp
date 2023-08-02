@@ -29,6 +29,7 @@ namespace UIAutomation.utilities
         [OneTimeSetUp]
         public void Setup()
         {
+
             string workingDirectory = Environment.CurrentDirectory;
             string projectDirectory = Directory.GetParent(workingDirectory).Parent.FullName;
             String reportPath =projectDirectory + "\\index.html";
